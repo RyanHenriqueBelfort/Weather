@@ -1,0 +1,65 @@
+*{
+    
+    color: black;
+}
+
+.app{
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 500px;
+    height: 700px;
+    margin: auto auto;
+    border-radius: 7px;
+}
+.app img{
+    background-position:top ;
+    background-size: cover;
+    position: absolute;
+    border-radius: 7px;
+    width: 500px;
+    z-index: -1;
+    height: 700px;
+}
+
+.input{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.input input{
+    color: black;
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+}
+.input input:hover{
+    background-color: #0EB36D;
+}
+
+.resultado{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+    height: auto;
+}
+
+.temperatura{
+    font-size: 50px;
+    display: flex;
+    margin: auto auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    width: 68px;
+    padding:15px 15px;
+}
+.tempo{
+    display: flex;
+    justify-content: center;
+}
+.padrao{
+    background-image: url(assets/padrao.jpg);
+
+}
